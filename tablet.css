@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+
+  .date01 {
+    display: none;
+  }
+
+  .race01 {
+    display: none;
+  }
+
+  .style01 {
+    display: none;
+  }
+
+
+  .form01 {
+    display: none;
+  }
+
+  .racer01 {
+    display: none;
+  }
+
+  .title {
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: prohibition, sans-serif;
+  }
+
+  .table01 .date {
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: prohibition, sans-serif;
+    font-weight: 600;
+    text-align: right;
+    width: 5%;
+    line-height: 0.8em;
+  }
+
+  .table01 .race {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .table01 .race span {
+    display: none;
+  }
+
+  .style01 {
+    display: none;
+  }
+
+  .card_wrap {
+    width: 99%;
+    margin: 20px auto;
+  }
+  .flex_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .l-wrapper_06 {
+    margin: 1rem 0px;
+    width: 49%;
+  }
+
+
+  .past_race {
+    width: 99%;
+    margin: 20px auto;
+  }
+
+}

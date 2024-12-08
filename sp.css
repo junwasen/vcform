@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media screen and (max-width:480px) {
+
+
+  .box {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  
+  .title {
+    margin: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    font-family: prohibition, sans-serif;
+  }
+
+  .title span{
+    font-size: 50px;
+    color: rgb(41, 85, 198);
+  }
+  
+  .title span::before{
+    content: " ";
+    display: inline-block;
+    background: url(header.gif) no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  .table01 td, th {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .table01 .date {
+    font-size: 18px;
+    padding-left: 5px;
+    line-height: 1.2em;
+    text-align: center;
+  }
+  .table01 .date span{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+  }
+
+  .table01 .race {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .table01 .race span{
+    display: none;
+  }
+  
+  .style01 {
+    display: none;
+  }
+
+
+
+  .cat {
+    font-size: 14px;
+  }
+
+  .material-symbols-outlined {
+    padding-right: 5px;
+  }
+
+  .card_wrap {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .flex_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .l-wrapper_06 {
+    margin: 1rem 0px;
+    width: 100%;
+  }
+
+  .card-content_06 {
+    padding: 10px 10px;
+    min-height: auto;
+  }
+
+  .past_race {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .past_race h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+}
